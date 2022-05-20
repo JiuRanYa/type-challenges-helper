@@ -1,6 +1,18 @@
 # type-challenge-helper
 
-A tool help you to fetch files from type-challenge
+Provide helpe when you using type-challenge to prictice. 
+
+Enable you to use type-challenge in vscode or other editor tool.
+
+This tool will help you to fetch files from type-challenge.
+
+# Before use:
+
+when you use this tool, ensure you have 
+
+* A folder 
+* Install the typescript in your folder
+* Have tsconfig.js in your folder
 
 # Install:
 
@@ -22,6 +34,11 @@ eg:
 ```
 tcc Pick
 ```
+
+This shell will generate a dir which name is same as the title, and include two files fetch from type-challenge:
+`template.ts` and `test-cases.ts`.
+
+Then just write your code in `template.ts` and check it in `test-cases.ts`
 
 ✨TODO:
 
