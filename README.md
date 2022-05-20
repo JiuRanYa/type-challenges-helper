@@ -9,7 +9,9 @@ npm install -g type-challenge-helper
 ```
 # usage:
 
-![@AQ5$KB(E}FIW6Q8I}QV0R7](https://raw.githubusercontent.com/1084350607/github-image-repo/main/type-challenge-helper/%40AQ5%24KB(E}FIW6Q8I}QV0R7.7f2c4svskn80.webp)
+![usage](https://raw.githubusercontent.com/1084350607/github-image-repo/main/type-challenge-helper/usage.webp)
+
+ Just ensure you type the correct title in type-challenge
 
 ```
 tcc (type-challenge title)
