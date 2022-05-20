@@ -2,7 +2,7 @@
 
 Provide helpe when you using type-challenge to prictice. 
 
-Enable you to use type-challenge in vscode or other editor tool.
+Enable you to use [type-challenge](https://github.com/type-challenges/type-challenges) in vscode or other editor tool.
 
 This tool will help you to fetch files from type-challenge.
 
