@@ -19,7 +19,7 @@ when you use this tool, ensure you have
 ```
 npm install -g type-challenge-helper
 ```
-# usage:
+# Usage:
 
 ![usage](https://raw.githubusercontent.com/1084350607/github-image-repo/main/type-challenge-helper/usage.webp)
 
@@ -42,7 +42,7 @@ Then just write your code in `template.ts` and check it in `test-cases.ts`
 
 ✨TODO:
 
-- [x] 直接从远端 github 获取 type-challenge 中 template 和 test-cases.ts 文件，实现零操作开始刷题
+- [x] 直接从远端 github 获取 type-challenge 中 template 和 test-cases.ts 文件
 - [ ] 补充所有const.js类型map
 - [ ] 错误收集模型
 - [ ] 链接错误和超时提示等
