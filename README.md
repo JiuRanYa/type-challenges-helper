@@ -2,6 +2,8 @@
 
 Beta testing...Not to use
 
+This tool relays on your network. It will fetch files from github. You will recive a empty folder if your network is bad, error message is going to  implement. 
+
 Provide helpe when you using type-challenge to prictice. 
 
 Enable you to use [type-challenge](https://github.com/type-challenges/type-challenges) in vscode or other editor tool.
