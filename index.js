@@ -13,6 +13,7 @@ function getRemoteName (localName) {
 
 function shellAction (localName) {
   const remoteName = getRemoteName(localName)
+  console.log(`fetcher --url="https://github.com/type-challenges/type-challenges/blob/main/questions/${remoteName}/template.ts"`)
   process.exec(`fetcher --url="https://github.com/type-challenges/type-challenges/blob/main/questions/${remoteName}/template.ts"`, {
     cwd: path.resolve(__dirname, localName)
   })
