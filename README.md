@@ -1,5 +1,7 @@
 # type-challenge-helper
 
+Beta testing...Not to use
+
 Provide helpe when you using type-challenge to prictice. 
 
 Enable you to use [type-challenge](https://github.com/type-challenges/type-challenges) in vscode or other editor tool.
