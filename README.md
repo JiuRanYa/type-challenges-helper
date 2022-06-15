@@ -33,7 +33,7 @@ npm install -g type-challenge-helper
 
  Just ensure you type the correct title in type-challenge
  
-> If the title is Hello World, you need to trim the title like: HelloWorld ensure the script shell get the correct params.
+:warning: If the title is Hello World, you need to trim the title like: HelloWorld ensure the script shell get the correct params.
 
 use like this:
 
