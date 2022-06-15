@@ -1,6 +1,16 @@
-# type-challenge-helper
+# <div align='center' ><font size='70'>type-challenge-helper</font></div>
 
- Provide help when you using type-challenge to prictice. 
+<p align='center'>
+  <a href=''>
+    <img src='https://img.shields.io/npm/v/type-challenge-helper'/>
+  </a>
+   <a href=''>
+    <img src='https://img.shields.io/npm/l/type-challenge-helper'/>
+  </a>
+</p>
+
+# Intro:
+Provide help when you using type-challenge to prictice. 
 
 Enable you to use [type-challenge](https://github.com/type-challenges/type-challenges) in vscode or other editor tool.
 
