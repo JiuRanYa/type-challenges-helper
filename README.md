@@ -6,11 +6,11 @@ Enable you to use [type-challenge](https://github.com/type-challenges/type-chall
 
 This tool will help you to fetch files from type-challenge.
 
-Waitting for implement
+Enable type:
 
 - [x] warm
 - [x] easy
-- [ ] medium
+- [x] medium
 - [ ] hard
 - [ ] extreme
 
