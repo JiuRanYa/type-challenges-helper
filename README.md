@@ -42,8 +42,6 @@ npm install -g type-challenge-helper
 ![usage](https://raw.githubusercontent.com/1084350607/github-image-repo/main/type-challenge-helper/usage.webp)
 
  Just ensure you type the correct title in type-challenge
- 
-:warning: If the title is Hello World, you need to trim the title like: HelloWorld ensure the script shell get the correct params.
 
 use like this:
 
