@@ -41,6 +41,7 @@ program
   .argument("<dirName...>", 'folder name')
   .action((dirName) => {
     const commandDir = handleTitle(dirName)
+    console.log(path.resolve(cwd(), commandDir))
 
     fs.mkdir(commandDir, {}, () => {
       message.loading();

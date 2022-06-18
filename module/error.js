@@ -1,7 +1,9 @@
 function ErrorModule() {}
 
 ErrorModule.prototype.command = (err) => {
-    console.log(err)
+    if (err) {
+        console.log(err);
+    }
 }
 
 ErrorModule.prototype.titleNotExit = () => {
