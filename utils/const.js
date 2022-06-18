@@ -7,7 +7,7 @@ const easyMap = {
     "FirstofArray": "00014-easy-first",
     "LengthofTuple":"00018-easy-tuple-length",
     "Exclude":"00043-easy-exclude",
-    "Awaited":"Awaited",
+    "Awaited":"00189-easy-awaited",
     "Concat":"00533-easy-concat",
     "Includes": "00898-easy-includes",
     "Push":"03057-easy-push",
