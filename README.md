@@ -1,16 +1,26 @@
-# type-challenge-helper
+# <div align='center' ><font size='70'>type-challenge-helper</font></div>
 
- Provide help when you using type-challenge to prictice. 
+<p align='center'>
+  <a href=''>
+    <img src='https://img.shields.io/npm/v/type-challenge-helper'/>
+  </a>
+   <a href=''>
+    <img src='https://img.shields.io/npm/l/type-challenge-helper'/>
+  </a>
+</p>
+
+# Intro:
+Provide help when you using type-challenge to prictice. 
 
 Enable you to use [type-challenge](https://github.com/type-challenges/type-challenges) in vscode or other editor tool.
 
 This tool will help you to fetch files from type-challenge.
 
-Waitting for implement
+Enable type:
 
 - [x] warm
 - [x] easy
-- [ ] medium
+- [x] medium
 - [ ] hard
 - [ ] extreme
 
@@ -33,7 +43,7 @@ npm install -g type-challenge-helper
 
  Just ensure you type the correct title in type-challenge
  
-> If the title is Hello World, you need to trim the title like: HelloWorld ensure the script shell get the correct params.
+:warning: If the title is Hello World, you need to trim the title like: HelloWorld ensure the script shell get the correct params.
 
 use like this:
 
