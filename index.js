@@ -2,42 +2,49 @@
 
 const path = require('path');
 const fs = require('fs')
-const { Command } = require('commander');
-const program = new Command();
 const process = require('child_process');
 const { cwd } = require('process');
-const urlMap = require('./lib/const')
+const { Command } = require('commander');
 
+const Message = require('./module/message')
+const ErrorModule = require('./module/error')
 
-function getRemoteName (localName) {
-  return urlMap[localName]
-}
+const {
+  getRemoteName,
+  trimTitle,
+  handleTitle
+} = require('./utils');
 
-function errorHandle(error) {
-  if (error) {
-    console.log(error)
-  }
-}
+const program = new Command();
+const message = new Message();
+const error = new ErrorModule();
 
-function shellAction (localName) {
+function shellAction (dirName, commandDir) {
+  const localName = trimTitle(dirName)
   const remoteName = getRemoteName(localName)
-  console.log(`fetching...`)
+
+  if (!remoteName) {
+    error.titleNotExit()
+  }
 
   process.exec(`fetcher --url="https://github.com/type-challenges/type-challenges/blob/main/questions/${remoteName}/template.ts"`, {
-    cwd: path.resolve(cwd(), localName)
-  }, errorHandle)
+    cwd: path.resolve(cwd(), commandDir)
+  }, error.command())
 
   process.exec(`fetcher --url="https://github.com/type-challenges/type-challenges/blob/main/questions/${remoteName}/test-cases.ts"`, {
-    cwd: path.resolve(cwd(), localName)
-  }, errorHandle)
+    cwd: path.resolve(cwd(), commandDir)
+  }, error.command())
 }
 
 program
   .version('0.1.0')
-  .argument("<dirName>", 'folder name')
+  .argument("<dirName...>", 'folder name')
   .action((dirName) => {
-    fs.mkdir(dirName, {}, () => {
-      shellAction(dirName)
+    const commandDir = handleTitle(dirName)
+
+    fs.mkdir(commandDir, {}, () => {
+      message.loading();
+      shellAction(dirName, commandDir)
     })
   })
 
