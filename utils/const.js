@@ -22,7 +22,7 @@ const mediumMap = {
     "DeepReadonly": "00009-medium-deep-readonly",
     "TupletoUnion": "00010-medium-tuple-to-union",
     "ChainableOptions": "00012-medium-chainable-options",
-    "Last of Array": "00015-medium-last",
+    "LastofArray": "00015-medium-last",
     "Pop": "00016-medium-pop",
     "Promise.all": "00020-medium-promise-all",
     "TypeLookup": "00062-medium-type-lookup",
