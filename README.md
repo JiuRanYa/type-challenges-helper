@@ -63,7 +63,7 @@ Then just write your code in `template.ts` and check it in `test-cases.ts`
 ✨TODO:
 
 - [x] Directly fetch the template and test-cases.ts from type-challenge
-- [ ] implement the remaining type in const.js
+- [x] implement the remaining type in const.js
 - [ ] handle all the errors
 - [ ] timeout and network error
 - [ ] Fetch template file and typescript config
