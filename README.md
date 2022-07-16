@@ -41,8 +41,6 @@ npm install -g type-challenge-helper github-files-fetcher
 
 ![usage](https://raw.githubusercontent.com/1084350607/github-image-repo/main/type-challenge-helper/usage.webp)
 
- Just ensure you type the correct title in type-challenge
-
 use like this:
 
 ```
