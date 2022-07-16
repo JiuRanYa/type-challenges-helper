@@ -35,7 +35,7 @@ when you use this tool, ensure you have
 # Install:
 
 ```
-npm install -g type-challenge-helper
+npm install -g type-challenge-helper github-files-fetcher
 ```
 # Usage:
 
