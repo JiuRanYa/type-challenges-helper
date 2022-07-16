@@ -12,11 +12,9 @@
 # Intro:
 This tool will help you to fetch files from type-challenge.
 
-Provide help when you using type-challenge to prictice. 
+Enable you to use [type-challenge](https://github.com/type-challenges/type-challenges) efficiently.
 
-Enable you to use [type-challenge](https://github.com/type-challenges/type-challenges) in vscode or other editor tool.
-
-Enable type:
+Enable type now:
 
 - [x] warm
 - [x] easy
