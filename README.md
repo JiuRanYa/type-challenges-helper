@@ -64,3 +64,26 @@ Then just write your code in `template.ts` and check it in `test-cases.ts`
 - [ ] timeout and network error
 - [ ] Fetch template file and typescript config
 - [ ] scaffold
+
+# Not work？
+
+This tools relays on your network， if you got a empty folder, follew the below:
+
+## Setp1:
+ensure you install the whole deps, run the command in your termainal
+
+```
+tch
+```
+
+```
+fetcher
+```
+
+## step2:
+
+```
+
+```
+
+if no files, means your network is bad, try to improve that
