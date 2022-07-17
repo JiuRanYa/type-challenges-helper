@@ -75,7 +75,7 @@ ensure you install the whole deps, run the command in your termainal
 ```
 tch
 ```
-
+then
 ```
 fetcher
 ```
