@@ -1,6 +1,6 @@
 {
   "name": "type-challenge-helper",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "",
   "bin": {
     "tch": "index.js"
