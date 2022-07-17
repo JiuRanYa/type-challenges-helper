@@ -81,9 +81,10 @@ fetcher
 ```
 
 ## step2:
+try to fetch files from github
 
 ```
-
+fetcher --url=https://github.com/type-challenges/type-challenges/blob/main/questions/00191-medium-append-argument/template.ts
 ```
 
 if no files, means your network is bad, try to improve that
