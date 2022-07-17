@@ -12,11 +12,9 @@
 # Intro:
 This tool will help you to fetch files from type-challenge.
 
-Provide help when you using type-challenge to prictice. 
+Enable you to use [type-challenge](https://github.com/type-challenges/type-challenges) efficiently.
 
-Enable you to use [type-challenge](https://github.com/type-challenges/type-challenges) in vscode or other editor tool.
-
-Enable type:
+Enable type now:
 
 - [x] warm
 - [x] easy
@@ -35,13 +33,11 @@ when you use this tool, ensure you have
 # Install:
 
 ```
-npm install -g type-challenge-helper
+npm install -g type-challenge-helper github-files-fetcher
 ```
 # Usage:
 
 ![usage](https://raw.githubusercontent.com/1084350607/github-image-repo/main/type-challenge-helper/usage.webp)
-
- Just ensure you type the correct title in type-challenge
 
 use like this:
 
@@ -68,3 +64,27 @@ Then just write your code in `template.ts` and check it in `test-cases.ts`
 - [ ] timeout and network error
 - [ ] Fetch template file and typescript config
 - [ ] scaffold
+
+# Not work？
+
+This tools relays on your network， if you got a empty folder, follew the below:
+
+## Setp1:
+ensure you install the whole deps, run the command in your termainal
+
+```
+tch
+```
+then
+```
+fetcher
+```
+
+## step2:
+try to fetch files from github
+
+```
+fetcher --url=https://github.com/type-challenges/type-challenges/blob/main/questions/00191-medium-append-argument/template.ts
+```
+
+if no files, means your network is bad, try to improve that
