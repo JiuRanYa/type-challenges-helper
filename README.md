@@ -12,7 +12,7 @@
 # Intro:
 This tool will help you to fetch files from type-challenge.
 
-Enable you to use [type-challenge](https://github.com/type-challenges/type-challenges) efficiently.
+Enable you to use [type-challenges](https://github.com/type-challenges/type-challenges) efficiently.
 
 Enable type now:
 
@@ -33,7 +33,7 @@ when you use this tool, ensure you have
 # Install:
 
 ```
-npm install -g type-challenge-helper github-files-fetcher
+npm install -g type-challenges-helper github-files-fetcher
 ```
 # Usage:
 
@@ -42,7 +42,7 @@ npm install -g type-challenge-helper github-files-fetcher
 use like this:
 
 ```
-tch (type-challenge title)
+tch (type-challenges title)
 ```
 
 eg:
